@@ -73,16 +73,39 @@
 // }
 
 
-8
-#include<stdio.h>
-void main(){
-    int a,b;
-    printf("Enter the follwing values\nA : ");scanf("%d",&a);
-    printf("B : ");scanf("%d",&b);
+// 8
+// #include<stdio.h>
+// void main(){
+//     printf("Enter the values of the following\n");
+//     int a,b;
+//     printf("A : ");scanf("%d",&a);
+//     printf("B : ");scanf("%d",&b);
+//     printf("The data before swapping\nA : %d\nB : %d",a,b);
+//     a=a+b;
+//     b=a-b;
+//     a=a-b;
+//     printf("\nThe data After swapping\nA : %d\nB : %d",a,b);
+// }
 
-    printf("The data before swapping\nA : %d\nB : %d",a,b);
-    a=a+b;
-    b=a-b;
-    a=a-b;;
-    printf("The data After swapping\nA : %d\nB : %d",a,b);
-}
+// 9
+// #include<stdio.h>
+// void main(){
+//     int year;
+//     printf("Enter the year : ");scanf("%d",&year);
+//     if(year%4==0){
+//         if(year%100==0){
+//             if(year%400==0){
+//                 printf("Leap year");
+//             }
+//             else{
+//                 printf("Not-Leap year");
+//             }
+//         }
+//         else{
+//             printf("Leap year");
+//         }
+//     }
+//     else{
+//         printf("Not-Leap year");
+//     }
+// }
