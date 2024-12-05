@@ -57,3 +57,32 @@
 //         }
 //     }
 // }
+
+
+// 7
+// #include<stdio.h>
+// void main(){
+//     int a,b;
+//     printf("Enter the value of the following\nA : ");
+//     scanf("%d",&a);printf("B : ");scanf("%d",&b);
+//     printf("\nThe data before swapping\nA : %d\nB : %d",a,b);
+//     int c=a;
+//     a=b;
+//     b=c;
+//     printf("\nThe data After swapping\nA : %d\nB : %d",a,b);
+// }
+
+
+8
+#include<stdio.h>
+void main(){
+    int a,b;
+    printf("Enter the follwing values\nA : ");scanf("%d",&a);
+    printf("B : ");scanf("%d",&b);
+
+    printf("The data before swapping\nA : %d\nB : %d",a,b);
+    a=a+b;
+    b=a-b;
+    a=a-b;;
+    printf("The data After swapping\nA : %d\nB : %d",a,b);
+}
