@@ -32,13 +32,28 @@
 // }
 
 // 5
-#include<stdio.h>
-void main(){
-    int n;printf("Enter the number : ");scanf("%d",&n);
+// #include<stdio.h>
+// void main(){
+//     int n;printf("Enter the number : ");scanf("%d",&n);
 
-    if(n%2==0){
-        printf("\nThe number is even");
-    }
-    else
-    printf("\nThe number is ODD\n");
-}
+//     if(n%2==0){
+//         printf("\nThe number is even");
+//     }
+//     else
+//     printf("\nThe number is ODD\n");
+// }
+
+// 6
+// #include<stdio.h>
+// void main(){
+//     int n;
+//     printf("Enter the value of n : ");scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         if(i%2!=0){
+//             printf("%d ",i);
+//         }
+//         else{
+//             continue;
+//         }
+//     }
+// }
